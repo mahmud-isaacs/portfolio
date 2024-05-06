@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #AED581;
+}
+
+.container {
+    background-image: linear-gradient(to bottom right, rgba(40, 77, 40, 0.5), rgba(33, 56, 27, 0.8)), url('https://mahmud-isaacs.github.io/portfolio_hostedImages/images/IMG_0306_Original.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1A4E47;
+}
+
+.content {
+    text-align: center;
+}
+
+h1 {
+    font-size: 5rem;
+    color: #CDDC39;
+}
+
+h2 {
+    color: #CDDC39;
+}
+
+
+
+.navbar-brand img {
+    width: 30px;
+    height: auto;
+}
+
+h3 {
+    color: #CDDC39;
+}
+
+@keyframes highlight {
+    0% {color: #DCE775}
+    25%{color: #CDDC39}
+    50% {color: #A5D6A7}
+    75%{color: #A5D6A7}
+    100% {color: #DCE775}
+
+}
+h3 b {
+    color: #80B293;
+    animation-name: highlight;
+    animation-duration: 2s; 
+    animation-iteration-count: infinite;
+}
+
+h1, h2, h3 {
+    animation: slideIn 2s forwards;
+    opacity: 0; 
+  }
+  
+
+  @keyframes slideIn {
+    from {
+      transform: translateY(-300px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(50px); 
+      opacity: 1; 
+    }
+  }
+
+footer {
+    background-color: #A5D6A7;
+    color: #1A4E47;
+    text-align: center;
+    padding: 8px ;
+  }
+
+.footer-content  {
+    gap: 8px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+}
