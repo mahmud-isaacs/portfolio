@@ -42,7 +42,7 @@ h1 b {
     }
 }
 
-h2 {
+#subHeading {
     color: #CDDC39;
 }
 
@@ -53,7 +53,7 @@ h2 {
     height: auto;
 }
 
-h3 {
+#smallHeading {
     color: #CDDC39;
 }
 
@@ -65,14 +65,14 @@ h3 {
     100% {color: #809393}
 
 }
-h3 b {
+#smallHeading b {
     color: #80B293;
     animation-name: highlight;
     animation-duration: 2s; 
     animation-iteration-count: infinite;
 }
 
-h1, h2, h3 {
+h1, #subHeading , #smallHeading {
     animation: slideIn 2s forwards;
     opacity: 0; 
   }
@@ -101,4 +101,90 @@ footer {
     padding: 8px;
     justify-content: center;
     align-items: center;
+}
+
+
+
+.card-image {
+    width: 300px;
+    height: 400px;
+}
+
+.about-container {
+    text-align: center;
+    border: 10px solid #1A4E47; 
+    padding: 10px; 
+    border-radius: 10px; 
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+#aboutMain {
+    background-color: #325353;
+    color: #CDDC39;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5rem;
+    box-shadow: 2px 5px 8px  #325353;
+    animation: slideIn 4s forwards;
+    opacity: 0; 
+    animation-name: slipIn;
+}
+
+@keyframes slipIn {
+    from {
+        transform: translateX(-300px);
+        opacity: 0;
+      }
+      to {
+        transform: translateX(4px); 
+        opacity: 1; 
+      }
+}
+
+#educationHeading {
+    color: #1A4E47;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#aboutHeading {
+    color: #FF6E42;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+
+p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+#skill-border {
+    border: 30px solid;
+    padding: 30px;
+}
+
+.card-title {
+    color: #325353;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.card-text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #031e1a;
+}
+
+.col-8-1 {
+    border: 10px solid #1A4E47;
+    padding: 10px;
+}
+
+.col-8-2{
+    border: 10px solid #1A4E47;
+    padding: 10px;
+}
+
+.pad {
+    padding-top: 70px;
 }
