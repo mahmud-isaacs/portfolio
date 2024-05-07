@@ -25,6 +25,23 @@ h1 {
     color: #CDDC39;
 }
 
+h1 b {
+    color: #AED581;
+    animation: slide 3s forwards;
+    opacity: 0;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(800px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(50px);
+        opacity: 1;
+    }
+}
+
 h2 {
     color: #CDDC39;
 }
@@ -42,10 +59,10 @@ h3 {
 
 @keyframes highlight {
     0% {color: #DCE775}
-    25%{color: #CDDC39}
+    25%{color: #325353}
     50% {color: #A5D6A7}
     75%{color: #A5D6A7}
-    100% {color: #DCE775}
+    100% {color: #809393}
 
 }
 h3 b {
