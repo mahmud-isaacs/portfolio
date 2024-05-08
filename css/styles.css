@@ -175,16 +175,36 @@ p {
     color: #031e1a;
 }
 
+.row {
+    display: flex;
+    justify-content: center;
+}
+
 .col-8-1 {
     border: 10px solid #1A4E47;
     padding: 10px;
+    text-align: center;
 }
 
 .col-8-2{
     border: 10px solid #1A4E47;
     padding: 10px;
+    text-align: center;
 }
 
 .pad {
     padding-top: 70px;
+}
+
+.img-thumbnailRow {
+    max-width: 10%;
+    border-radius: 30%;
+    border-color: #031e1a;
+    box-shadow: 2px 5px 6px  green;
+    transition: transform 1500ms;
+}
+
+.img-thumbnailRow:hover {
+    transform: rotate(360deg);
+    border-radius: 50%;
 }
