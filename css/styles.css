@@ -1,4 +1,7 @@
 body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -94,6 +97,7 @@ body {
   }
 
 footer {
+    grid-row: 3;
     background-color: #003333;
     color: #FFC300;
     text-align: center;
@@ -314,4 +318,8 @@ p {
     align-content: center;
     justify-content: center;
     display: flex;
+}
+
+main {
+    flex: 1;
 }
