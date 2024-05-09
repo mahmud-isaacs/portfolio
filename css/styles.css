@@ -323,3 +323,7 @@ p {
 main {
     flex: 1;
 }
+
+.contactPad {
+    padding-top: 60px;
+}
