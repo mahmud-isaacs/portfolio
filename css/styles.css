@@ -327,3 +327,39 @@ main {
 .contactPad {
     padding-top: 60px;
 }
+
+.formTable {
+    text-align: center;
+}
+
+.solid-line {
+    border: none;
+    border-top: 20px solid #031e1a;
+}
+
+.contactBtn {
+    background-color: #1A4E47;
+    color: #FFC300;
+    width: 20%;
+    border-radius: 20%;
+    box-shadow: 2px 5px 8px #FFC300;
+}
+
+#contactNumber {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #5073A4;
+}
+
+#contactMail {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #5073A4;
+}
+
+.form-label {
+    color: #CDDC39;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #1A4E47;
+    border-radius: 20px;
+    width: 50%;
+}
