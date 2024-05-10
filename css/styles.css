@@ -2,8 +2,6 @@ body {
     display: grid;
     grid-template-rows: auto 1fr auto;
     min-height: 100vh;
-    margin: 0;
-    padding: 0;
     font-family: Arial, sans-serif;
     background-color: #AED581;
 }
@@ -311,7 +309,7 @@ p {
 }
 
 .testPad {
-    padding-top: 50px;
+    padding-top: 60px;
 }
 
 .testBox {
@@ -363,3 +361,158 @@ main {
     border-radius: 20px;
     width: 50%;
 }
+
+@media screen and (max-width: 300px){
+    .navbar-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .navbar-nav .nav-item {
+        margin: 5px 0;
+    }
+    
+    .offcanvas-header {
+        background-color: rgba(0, 0, 0, 0.7); 
+    }
+    
+      
+    #mainHeading {
+        font-size: 20px; 
+    }
+    
+    #subHeading {
+        font-size: 16px;
+    }
+    
+    #smallHeading {
+        font-size: 12px; /
+    }
+    
+      
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer-content h6 {
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+      
+    .footer-content img {
+        width: 20px;
+        height: auto;
+    }
+
+    .col-4 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .col-8 {
+        width: 100%;
+    }
+
+    #aboutMain {
+        font-size: 16px;
+    }
+
+    .card-link-overlay .btn {
+        font-size: 6px;
+        width: 50px;
+    }
+
+    .testPad {
+        padding-top: 60px;
+    }
+
+    #testHeading {
+        font-size: 16px;
+    }
+
+    .carousel-item .image-wrapper1 {
+        width: 100%;
+    }
+
+    .carousel-item .image-wrapper2 {
+        width: 100%;
+    }
+
+    .carousel-item .image-wrapper3 {
+        width: 100%;
+    }
+
+    .carousel-item .image-wrapper4 {
+        width: 100%;
+    }
+
+    .carousel-item .image-wrapper5 {
+        width: 100%;
+    }
+
+    .carousel-item .testBox {
+        width: 100%;
+    }
+
+    .carousel-item .card {
+        width: 100%;
+        margin: 10px ;
+    }
+
+    .carousel-item img {
+        width: 80%;
+        height: auto;
+    }
+
+    contactPad {
+        padding: 10px;
+    }
+
+    .row.justify-content-center {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col input[type="text"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .col input[type="email"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .col textarea {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .contactBtn {
+        width: 100%;
+    }
+
+    .deetsWrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .mailDeets img {
+        margin-right: 10px;
+    }
+
+    .phoneDeets img {
+        margin-right: 10px;
+    }
+
+    .mailDeets {
+        margin-bottom: 10px;
+    }
+
+    .phoneDeets {
+        margin-bottom: 10px;
+    }
+}
+    
